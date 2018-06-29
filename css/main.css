@@ -20,7 +20,7 @@ label
 
 @media print
 {
-    #properties
+    #properties, .deleteButton
     {
         display: none !important;
     }

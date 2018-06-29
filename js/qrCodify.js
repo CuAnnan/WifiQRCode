@@ -17,6 +17,13 @@
                             )
                             .append(
                                 $('<img/>').attr('src', dataURL).addClass('qrCode')
+                            ).append(
+                                $('<button/>').text('delete').addClass('deleteButton').click(
+                                    function()
+                                    {
+                                        $(this).closest('li').remove();
+                                    }
+                                )
                             );
                     }
                 );
