@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    </head>
+    <body>
+        <ul id="properties">
+            <li>
+                <label for="ssid">SSID:</label>
+                <input type="text" id="ssid"/>
+            </li>
+            <li>
+                <label for="security">Security:</label>
+                <select id="security">
+                    <option value="">None</option>
+                    <option value="WEP">WEP</option>
+                    <option value="WPA">WPA</option>
+                    <option value="WPA2">WPA2</option>
+                </select>
+            </li>
+            <li>
+                <label for="password">Password:</label>
+                <input type="text" id="password"/>
+            </li>
+            <li>
+                <button type="button" id="submitButton">
+                    Go
+                </button>
+            </li>
+        </ul>
+
+        <ul id="qrCodes">
+
+        </ul>
+
+        <script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/vendor/qrcode.min.js"></script>
+        <script type="text/javascript" src="js/qrCodify.js"></script>
+    </body>
+</html>

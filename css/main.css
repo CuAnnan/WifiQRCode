@@ -1,0 +1,27 @@
+#properties, #qrCodes
+{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+
+label
+{
+    display:inline-block;
+    width:5em;
+}
+
+.qrCode
+{
+    display:inline-block;
+    width: 400px;
+    height:400px;
+}
+
+@media print
+{
+    #properties
+    {
+        display: none !important;
+    }
+}
